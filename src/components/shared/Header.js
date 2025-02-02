@@ -7,31 +7,32 @@ const linkStyle = {
     textDecoration: 'none',
 	padding: '10px'
 }
-const authenticatedOptions = (
-	<>
-		<Nav.Item>
-			<Link to='change-password' style={linkStyle}>
-				Change Password
-			</Link>
-		</Nav.Item>
-		<Nav.Item>
-			<Link to='sign-out' style={linkStyle}>
-				Sign Out
-			</Link>
-		</Nav.Item>
-	</>
-)
 
-const unauthenticatedOptions = (
-	<>
-        <Nav.Item>
-		    <Link to='sign-up' style={linkStyle}>Sign Up</Link>
-        </Nav.Item>
-        <Nav.Item>
-		    <Link to='sign-in' style={linkStyle}>Sign In</Link>
-        </Nav.Item>
-	</>
-)
+// const authenticatedOptions = (
+// 	<>
+// 		<Nav.Item>
+// 			<Link to='change-password' style={linkStyle}>
+// 				Change Password
+// 			</Link>
+// 		</Nav.Item>
+// 		<Nav.Item>
+// 			<Link to='sign-out' style={linkStyle}>
+// 				Sign Out
+// 			</Link>
+// 		</Nav.Item>
+// 	</>
+// )
+
+// const unauthenticatedOptions = (
+// 	<>
+//         <Nav.Item>
+// 		    <Link to='sign-up' style={linkStyle}>Sign Up</Link>
+//         </Nav.Item>
+//         <Nav.Item>
+// 		    <Link to='sign-in' style={linkStyle}>Sign In</Link>
+//         </Nav.Item>
+// 	</>
+// )
 
 const alwaysOptions = (
 	<>
