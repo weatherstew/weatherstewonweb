@@ -5,10 +5,18 @@
 @import "../../node_modules/bootstrap/scss/functions";
 
 // 2. Include any default variable overrides here
-$body-bg: #000;
-$body-color: #111;
-$primary: #009863;
-$danger: #a53700;
+$body-bg: #e6e6e6;
+$body-color: #808080;
+$primary: #793722;
+$secondary: #C07e31;
+$success: #52934A;
+$danger: #C32126;
+$info: #a6dde9;
+$warning: #fcb817;
+$light: #e6e6e6;
+$dark: #808080;
+$headings-font-family: Caprasimo;
+$font-family-base: noto-serif;
 
 // 3. Include remainder of required Bootstrap stylesheets (including any separate color mode stylesheets)
 @import "../../node_modules/bootstrap/scss/variables";
@@ -32,6 +40,6 @@ $danger: #a53700;
 
 
 // 8. Add additional custom code here
-body {
-    background-color: aqua;
-}
+// body {
+//     background-color: aqua;
+// }

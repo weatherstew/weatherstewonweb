@@ -4,7 +4,10 @@ const Home = (props) => {
 
 	return (
 		<>
-			<h2>Home Page</h2>
+			<div className="container">
+
+				<h2>weatherstew</h2>
+			</div>
 		</>
 	)
 }

@@ -1,8 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Caprasimo&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: Caprasimo;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -10,4 +10,18 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.caprasimo-regular {
+  font-family: "Caprasimo", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.noto-serif-regular {
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
 }
