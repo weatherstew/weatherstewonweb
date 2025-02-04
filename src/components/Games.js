@@ -5,7 +5,7 @@ const fartAscent = "app_icon_new.png";
 
 const Games = (props) => {
   // const { msgAlert, user } = props
-  console.log("props in games", props);
+  console.log("props in games ", props);
 
   return (
     <>
