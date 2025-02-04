@@ -9,7 +9,7 @@ const Home = (props) => {
 	return (
     <>
       <Container fluid className="d-flex flex-column justify-content-center">
-		<h2 className="mx-auto">weatherstew</h2>
+		<h1 className="mx-auto">weatherstew</h1>
         <Image
           fluid
           src={wsLogoImg}
