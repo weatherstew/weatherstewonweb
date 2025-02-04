@@ -1,15 +1,15 @@
 import { Container, Image } from "react-bootstrap";
 
-const wsLogoImg = 'logo_single_animation.gif'
+const wsLogoImg = "logo_single_animation.gif";
 
-const Home = (props) => {
-	// const { msgAlert, user } = props
-	console.log('props in home', props)
+const About = (props) => {
+  // const { msgAlert, user } = props
+  console.log("props in about", props);
 
-	return (
+  return (
     <>
       <Container fluid className="d-flex flex-column justify-content-center">
-		<h2 className="mx-auto">weatherstew</h2>
+        <h2 className="mx-auto">about</h2>
         <Image
           fluid
           src={wsLogoImg}
@@ -21,6 +21,6 @@ const Home = (props) => {
       </Container>
     </>
   );
-}
+};
 
-export default Home
+export default About;
