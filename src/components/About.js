@@ -11,10 +11,10 @@ const About = (props) => {
       <Container
         fluid
         className="d-flex flex-column justify-content-center align-items-center mt-10"
-        style={{ height: "75vh", marginTop: "200px"}}
+        style={{ height: "75vh", marginTop: "200px" }}
       >
         <h1 className="my-10">about</h1>
-        <Card className="w-50" >
+        <Card className="w-50">
           <Card.Body>
             <Card.Text className="text-center">
               We're weatherstew, an indie game studio dedicated to making fun
@@ -42,7 +42,11 @@ const About = (props) => {
         <Row className="justify-content-center mt-4">
           <Col xs={12} className="text-center">
             <p>
-              <a href="/privacy-policy" className="text-decoration-none">Privacy Policy</a>
+              <h3>
+                <a href="/privacy-policy" className="text-decoration-none">
+                  Privacy Policy
+                </a>
+              </h3>
             </p>
           </Col>
         </Row>
