@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/www.weatherstew.com/static/css/main.77b09021.css",
+    "main.js": "/www.weatherstew.com/static/js/main.ae52ab3c.js",
+    "index.html": "/www.weatherstew.com/index.html",
+    "main.77b09021.css.map": "/www.weatherstew.com/static/css/main.77b09021.css.map",
+    "main.ae52ab3c.js.map": "/www.weatherstew.com/static/js/main.ae52ab3c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.77b09021.css",
+    "static/js/main.ae52ab3c.js"
+  ]
+}
