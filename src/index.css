@@ -25,3 +25,28 @@ code {
   font-style: normal;
   font-variation-settings: "wdth" 100;
 }
+
+.privacy-content {
+  line-height: 1.6;
+}
+
+.privacy-list li {
+  margin-bottom: 1rem;
+}
+
+.privacy-section {
+  margin-bottom: 2rem;
+}
+
+.privacy-section h5 {
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.privacy-section ul {
+  padding-left: 1.5rem;
+}
+
+.privacy-section ul li {
+  margin-bottom: 0.75rem;
+}

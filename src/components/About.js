@@ -1,4 +1,4 @@
-import { Container, Image, Card } from "react-bootstrap";
+import { Container, Image, Card, Row, Col } from "react-bootstrap";
 
 const wsLogoImg = "logo_single_animation.gif";
 
@@ -39,6 +39,13 @@ const About = (props) => {
             objectFit: "contain", // Maintain aspect ratio while fitting within the height
           }}
         />
+        <Row className="justify-content-center mt-4">
+          <Col xs={12} className="text-center">
+            <p>
+              <a href="/privacy-policy" className="text-decoration-none">Privacy Policy</a>
+            </p>
+          </Col>
+        </Row>
       </Container>
     </>
   );

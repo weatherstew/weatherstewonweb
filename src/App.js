@@ -16,6 +16,7 @@ import ChangePassword from './components/auth/ChangePassword'
 import Games from './components/Games'
 import About from './components/About'
 import Contact from './components/Contact'
+import PrivacyPolicy from './components/PrivacyPolicy'
 
 const App = () => {
 
@@ -79,6 +80,7 @@ const App = () => {
 							<ChangePassword msgAlert={msgAlert} user={user} />
 						</RequireAuth>}
 					/>
+					<Route path="/privacy-policy" element={<PrivacyPolicy />} />
 				</Routes>
 				{msgAlerts.map((msgAlert) => (
 					<AutoDismissAlert
