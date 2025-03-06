@@ -43,7 +43,7 @@ const About = (props) => {
           <Col xs={12} className="text-center">
             <p>
               <h3>
-                <a href="/privacy-policy" className="text-decoration-none">
+                <a href="/privacy" className="text-decoration-none">
                   Privacy Policy
                 </a>
               </h3>
