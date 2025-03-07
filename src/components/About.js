@@ -1,4 +1,5 @@
 import { Container, Image, Card, Row, Col } from "react-bootstrap";
+import PrivacyPolicy from "./PrivacyPolicy";
 
 const wsLogoImg = "logo_single_animation.gif";
 
@@ -51,6 +52,7 @@ const About = (props) => {
           </Col>
         </Row>
       </Container>
+      <PrivacyPolicy />
     </>
   );
 };

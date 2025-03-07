@@ -2,7 +2,7 @@
   "name": "weatherstew-website",
   "version": "0.1.0",
   "description": "lil website for a lil studio",
-  "homepage": "https://weatherstew.com",
+  "homepage": "https://www.weatherstew.com",
   "main": "index.js",
   "private": true,
   "dependencies": {
